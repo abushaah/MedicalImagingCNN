@@ -30,7 +30,7 @@ Convolutional neural network model trained on existing positive and negative hea
 2. Consult in industry experts for their opinions
 
 ### Software tools
-- Tensorflow
+- Monai
 - Pytorch
 
 ### Research papers, tutorials, and resources
