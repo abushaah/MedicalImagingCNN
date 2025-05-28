@@ -1,0 +1,24 @@
+May 26:
+
+1. Project setup, requirements, resources
+2. Environment setup, dependencies, kaggle/git setup
+
+May 27:
+
+3. Identify the model, download appropriate data sets
+
+May 28:
+
+4. Data set processing
+- edit the number ot nifti patients
+- use the nifti 2 dicom to convert to dicom
+- edit the number of dicoms
+- convert the dicom back to nifti
+
+May 29:
+
+5. Model training
+6. Model testing
+
+
+7. Add a new data set
