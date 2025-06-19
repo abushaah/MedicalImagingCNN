@@ -49,17 +49,15 @@ Trained on existing positive and negative medical images
 
 ### Python
 - Pytorch
-- 3DSlicer
 
 ## Data Sources
 **Note: all data sources have a reliability score of 8.5+ on kaggle**
 
-- Gastrointestinal disease: [Kvasir Dataset](https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset)
-- (Liver, brain, lung, pancreas) tumour, hippocampus, prostate, cardiac, colon cancer, hepatic vessels, spleen: [Medical Segmentation Decathlon](http://medicaldecathlon.com/)
-- Pneumonia chest x ray: [Medical Image Analysis with CNN](https://www.kaggle.com/code/ghitabenjrinija/medical-image-analysis-with-cnn)
-- Mammogram:
-    - [RSNA Screening Mammography Breast Cancer Detection](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data?select=sample_submission.csv)
-    - [King Abdulaziz University Mammogram Dataset](https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset)
+- [Brain tumour MRI](https://www.kaggle.com/datasets/andrewmvd/brain-tumor-segmentation-in-mri-brats-2015)
+- [Breast cancer cell](https://www.kaggle.com/datasets/andrewmvd/breast-cancer-cell-segmentation)
+- [Hippocampus MRI](https://www.kaggle.com/datasets/andrewmvd/hippocampus-segmentation-in-mri-images)
+- [Lung vessel](https://www.kaggle.com/datasets/andrewmvd/lung-vessel-segmentation)
+- [Liver tumour](https://www.kaggle.com/datasets/andrewmvd/liver-tumor-segmentation)
 
 ### Data preprocessing
 1. NIFTI files
@@ -80,10 +78,3 @@ Trained on existing positive and negative medical images
 ### Research papers, tutorials, and resources
 - [Monai](https://monai.io/index.html)
 - [Kaggle](https://www.kaggle.com/)
-- [Deep convolutional neural network based medical image classification for disease diagnosis](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0276-2#Sec6)
-- [Medical Image Analysis with CNN](https://www.kaggle.com/code/ghitabenjrinija/medical-image-analysis-with-cnn)
-- [PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://www.youtube.com/watch?v=M3ZWfamWrBM)
-
-### Similar models
-- BioMedCLIP
-- CheXNet
