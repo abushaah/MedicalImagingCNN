@@ -1,6 +1,6 @@
 # MedicalImagingCNN
 
-Haifaa Abushaaban, May 2025
+Haifaa, May 2025
 
 ## Abstract
 
