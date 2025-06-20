@@ -4,20 +4,16 @@ Haifaa, May 2025
 
 ## Abstract
 
-**About**
-
+#### About
 Using convolutional neural networks (ML) for classifying medical images.
 
-**What does the software do?**
-
+#### What
 Analyze, detect, and diagnose various tumours depending on the dataset trained
 
-**How?**
-
+#### How
 Trained on existing positive and negative medical images
 
-**Purpose**
-
+#### Purpose
 - For doctors:
     - Prioritize scans on a daily basis for viewing by doctor
     - Prioritize scans based on medical history of patient and result
@@ -39,7 +35,8 @@ Trained on existing positive and negative medical images
 
 ### Training
 
-### Testing
+### Testing/Validation
+- Sliding window inference method
 
 ## Software tools
 
@@ -59,15 +56,8 @@ Trained on existing positive and negative medical images
 - [Lung vessel](https://www.kaggle.com/datasets/andrewmvd/lung-vessel-segmentation)
 - [Liver tumour](https://www.kaggle.com/datasets/andrewmvd/liver-tumor-segmentation)
 
-### Data preprocessing
-1. NIFTI files
-- Crop Nifti files to same dimensions
-- For each patient, the DCM files in the nifti file must be equal
-- Compress files
-
 # Validation
 1. Use an AI model evaluation (with a focus on healthcare): [epic-open-source/seismometer](https://github.com/epic-open-source/seismometer)
-2. Consult in industry experts for their opinions
 
 ## To do
 1. Base project which can work on any dataset
@@ -77,6 +67,5 @@ Trained on existing positive and negative medical images
 
 ### Data sets, environment, tutorials, and resources
 - [Monai](https://monai.io/index.html)
-- [Monai tutorials](https://github.com/Project-MONAI/tutorials)
+- [Monai tutorials](https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/spleen_segmentation_3d.ipynb)
 - [Kaggle](https://www.kaggle.com/)
-- [PyTorch and Monai](https://www.youtube.com/watch?v=M3ZWfamWrBM)
