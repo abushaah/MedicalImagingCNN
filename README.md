@@ -75,6 +75,8 @@ Trained on existing positive and negative medical images
 3. Add reasoning process to the result
 4. Create a UI for uploading datasets and obtain results
 
-### Research papers, tutorials, and resources
+### Data sets, environment, tutorials, and resources
 - [Monai](https://monai.io/index.html)
+- [Monai tutorials](https://github.com/Project-MONAI/tutorials)
 - [Kaggle](https://www.kaggle.com/)
+- [PyTorch and Monai](https://www.youtube.com/watch?v=M3ZWfamWrBM)
