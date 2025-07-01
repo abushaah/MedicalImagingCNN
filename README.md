@@ -34,6 +34,10 @@ Trained on existing positive and negative medical images
     - Dencoder: Build output image from encoder to classify each image
 
 ### Training
+- Using Dice Loss rather than Cross Enropy Loss, due to imbalance of image content (background much greater than foreground)
+    - Definitions:
+        - Dice loss measures overlap between predicted and true segmentations, based on the Dice coefficient. Focuses on matching the shape and position of regions. Handles ibalance better.
+        - Cross entropy loss measures the distance between the predicted probability distribution and the true label distribution. Focus on pixel accuracy and penalizes incorrect class predictions. Sensitive to imbalance.
 
 ### Testing/Validation
 - Sliding window inference method
